@@ -1,0 +1,29 @@
+{
+    "name": "draotix/laravel-elasticsearch-models",
+    "description": "Easy way to use elasticsearch in laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jetmir Haxhisefa",
+            "email": "info@draotix.com"
+        }
+    ],
+    "classmap": [],
+    "autoload-dev": {
+        "psr-4": {
+            "Draotix\\LaravelElasticsearchModels\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "elasticsearch/elasticsearch": "~6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Draotix\\LaravelElasticsearchModels\\Providers\\Service"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
